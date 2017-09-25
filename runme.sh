@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Network speed test
 # References:
 # Linux on distributions endorsed by Azure: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/endorsed-distros
