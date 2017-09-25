@@ -43,7 +43,7 @@ You will need to create the following:
 
 ## Machine01
 ```
-5. type: ntttcp -s10.0.4.5 -t 300  
+1. type: ntttcp -s10.0.4.5 -t 300  
 (NOTE: You might have to change the IP address of 10.0.4.5.  This has to be started AFTER the process on Machine02)
 ```
 
