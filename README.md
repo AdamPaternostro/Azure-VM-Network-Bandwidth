@@ -12,6 +12,9 @@ You will need to create the following:
 ## To Create the environemnt (Scripted)
 ```
 1. Open a cloud shell in the portal
+```
+![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/CloudShell.png)
+```
 2. Type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/createtest.sh
 3. edit the file and change any parameters
 3. chmod +x createtest.sh
