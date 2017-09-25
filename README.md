@@ -10,27 +10,27 @@ You will need to create the following:
 3 - An Availability Set (the VMs must be in one so they are close to one another in the data center)
 
 ## To Create the environemnt
-1 - Open a cloud shell in the portal
-2 - Type: wget TTT
-3 - edit the file and change any parameters
-3 - chmod +x TTT
-4 - ./createtest.sh
+1. Open a cloud shell in the portal
+2. Type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/createtest.sh
+3. edit the file and change any parameters
+3. chmod +x TTT
+4. ./createtest.sh
 
 # Run the test
 
 ## Machine01
-1 - ssh into the machine (you can get the ssh connection from the portal)
-2 - type: wget TTT
-3 - chmod +x runme.sh
-4 - type ./runme.sh
+1. ssh into the machine (you can get the ssh connection from the portal)
+2. type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/runme.sh
+3. chmod +x runme.sh
+4. type ./runme.sh
 
 ## Machine02
-1 - ssh into the machine (you can get the ssh connection from the portal)
-2 - type: wget TTT
-3 - chmod +x runme.sh
-4 - type: /sbin/ifconfig
-5 - get the local IP address of the machine
-6 - type: ntttcp -r -t 300 (YOU NEED TO START THIS BEFORE 
+1. ssh into the machine (you can get the ssh connection from the portal)
+2. type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/runme.sh
+3. chmod +x runme.sh
+4. type: /sbin/ifconfig
+5. get the local IP address of the machine
+6. type: ntttcp -r -t 300 (YOU NEED TO START THIS BEFORE 
 
 ## Machine01
-5 - type: ntttcp -s10.0.4.5 -t 300  (NOTE: You might have to change the IP address of 10.0.4.5.  This has to be started after the process on Machine02)
+5. type: ntttcp -s10.0.4.5 -t 300  (NOTE: You might have to change the IP address of 10.0.4.5.  This has to be started after the process on Machine02)
