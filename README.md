@@ -16,7 +16,7 @@ You will need to create the following:
 ![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/CloudShell.png)
 ```
 2. Type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/createtest.sh
-3. edit the file and change any parameters
+3. Edit the file and change any parameters.  If you want to test on your VNET and such, you really just need the last two commands that create the VMs.
 3. chmod +x createtest.sh
 4. ./createtest.sh
 ```
@@ -54,6 +54,7 @@ You will need to create the following:
 ![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/SpeedResults.png)
 
 # Delete your resources
+In your cloud shell enter the below command to delete the test.  Note, if you did this test by creating VMs in an existing resource group "DO NOT RUN THIS".  You will need to clean up by hand.  Some people might want to join an existing VNET.
 ```
 az group delete --name SpeedTestRG
 ```
