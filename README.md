@@ -30,7 +30,8 @@ You will need to create the following:
 3. chmod +x runme.sh
 4. type: /sbin/ifconfig
 5. get the local IP address of the machine
-6. type: ntttcp -r -t 300 (YOU NEED TO START THIS BEFORE 
+6. type: ntttcp -r -t 300  
 
 ## Machine01
-5. type: ntttcp -s10.0.4.5 -t 300  (NOTE: You might have to change the IP address of 10.0.4.5.  This has to be started after the process on Machine02)
+5. type: ntttcp -s10.0.4.5 -t 300  
+(NOTE: You might have to change the IP address of 10.0.4.5.  This has to be started AFTER the process on Machine02)
