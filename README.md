@@ -5,11 +5,11 @@ Lots of customers want to know the bandwidth of an Azure VM size and there is no
 
 # Step: Create the environment
 You will need to create the following:
-1 - Two Azure VMs of the same size (in the same Azure region)
-2 - A VNET
-3 - An Availability Set (the VMs must be in one so they are close to one another in the data center)
+1. Two Azure VMs of the same size (in the same Azure region)
+2. A VNET
+3. An Availability Set (the VMs must be in one so they are close to one another in the data center)
 
-## To Create the environemnt
+## To Create the environemnt (Scripted)
 1. Open a cloud shell in the portal
 2. Type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/createtest.sh
 3. edit the file and change any parameters
