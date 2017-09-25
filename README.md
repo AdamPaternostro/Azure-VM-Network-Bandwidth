@@ -55,6 +55,9 @@ You will need to create the following:
 # Results for Standard_DS5_v2
 ![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/SpeedResults.png)
 
+# Results for Standard_D15_v2
+![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/D15SpeedResults.png)
+
 # Delete your resources
 In your cloud shell enter the below command to delete the test.  Note, if you did this test by creating VMs in an existing resource group "DO NOT RUN THIS".  You will need to clean up by hand.  Some people might want to join an existing VNET.
 ```
