@@ -25,7 +25,7 @@ You will need to create the following:
 
 ## Machine01
 ```
-1. ssh into the machine (you can get the ssh connection from the portal)
+1. ssh into the machine (you can get the ssh connection from the portal password: MySecer123Pass in the create script)
 2. type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/runme.sh
 3. chmod +x runme.sh
 4. type ./runme.sh
@@ -33,7 +33,7 @@ You will need to create the following:
 
 ## Machine02
 ```
-1. ssh into the machine (you can get the ssh connection from the portal)
+1. ssh into the machine (you can get the ssh connection from the portal password: MySecer123Pass in the create script)
 2. type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/runme.sh
 3. chmod +x runme.sh
 4. type: /sbin/ifconfig
