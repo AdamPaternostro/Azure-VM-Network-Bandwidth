@@ -16,9 +16,10 @@ You will need to create the following:
 ![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/CloudShell.png)
 ```
 2. Type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/createtest.sh
-3. Edit the file and change any parameters.  If you want to test on your VNET and such, you really just need the last two commands that create the VMs.
-3. chmod +x createtest.sh
-4. ./createtest.sh
+3. Edit the file and change any parameters.  
+   If you want to test on your VNET and such, you really just need the last two commands that create the VMs.
+3. type: chmod +x createtest.sh
+4. type: ./createtest.sh
 ```
 
 # Run the test
@@ -27,17 +28,18 @@ You will need to create the following:
 ```
 1. ssh into the machine (you can get the ssh connection from the portal password: MySecer123Pass in the create script)
 2. type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/runme.sh
-3. chmod +x runme.sh
-4. type ./runme.sh
+3. type: chmod +x runme.sh
+4. type: ./runme.sh
 ```
 
 ## Machine02
 ```
 1. ssh into the machine (you can get the ssh connection from the portal password: MySecer123Pass in the create script)
 2. type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/runme.sh
-3. chmod +x runme.sh
-4. type: /sbin/ifconfig
-5. get the local IP address of the machine
+3. type: chmod +x runme.sh
+4. type: ./runme.sh
+5. type: /sbin/ifconfig
+6. get the local IP address of the machine
 ```
 ![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/GetIPAddress.png)
 ```
