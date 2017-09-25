@@ -40,3 +40,7 @@ You will need to create the following:
 
 # Results for Standard_DS5_v2
 ![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/SpeedResults.png)
+
+# Delete your resources
+az group delete --name SpeedTestRG
+
