@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Network speed test
 # References:
 # Sizes for Windows virtual machines in Azure https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes
