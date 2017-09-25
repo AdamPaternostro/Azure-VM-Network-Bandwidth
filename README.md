@@ -13,7 +13,7 @@ You will need to create the following:
 1. Open a cloud shell in the portal
 2. Type: wget https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/createtest.sh
 3. edit the file and change any parameters
-3. chmod +x TTT
+3. chmod +x createtest.sh
 4. ./createtest.sh
 
 # Run the test
@@ -39,4 +39,4 @@ You will need to create the following:
 
 
 # Results for Standard_DS5_v2
-![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/SpeedResults.png]
+![alt tag](https://raw.githubusercontent.com/AdamPaternostro/Azure-VM-Network-Bandwidth/master/images/SpeedResults.png)
